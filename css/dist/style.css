@@ -107,3 +107,11 @@ footer .info-block {
 footer .info-block li {
   list-style-type: none;
 }
+footer .brand {
+  padding: 15px 0;
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
