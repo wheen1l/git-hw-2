@@ -4,6 +4,9 @@
 }
 .wrapper {
   background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 .container {
   box-sizing: border-box;
@@ -67,6 +70,7 @@ header .clear {
   clear: both;
 }
 section {
+  flex: 1 0 auto;
   padding-top: 20px;
 }
 section .item {
@@ -82,8 +86,32 @@ section .item .item-description {
   padding: 5px 15px;
 }
 section .block {
-  height: 100vh;
+  min-height: 70vh;
 }
 section .block .clear {
   clear: both;
+}
+footer {
+  padding: 20px;
+  flex: 0 0 auto;
+  background-color: #007765;
+}
+footer .info-block {
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  text-align: left;
+}
+footer .info-block li {
+  list-style-type: none;
+}
+footer .brand {
+  padding: 15px 0;
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
 }
