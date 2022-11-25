@@ -74,6 +74,13 @@ section .item {
   margin: 10px;
   height: 300px;
 }
+section .item .item-name {
+  font-size: 20px;
+  text-align: center;
+}
+section .item .item-description {
+  padding: 5px 15px;
+}
 section .block {
   height: 100vh;
 }
