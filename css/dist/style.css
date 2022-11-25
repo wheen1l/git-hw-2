@@ -96,3 +96,14 @@ footer {
   flex: 0 0 auto;
   background-color: #007765;
 }
+footer .info-block {
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  text-align: left;
+}
+footer .info-block li {
+  list-style-type: none;
+}
