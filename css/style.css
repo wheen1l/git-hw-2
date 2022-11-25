@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: lightgray;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: 0 auto;
+}
