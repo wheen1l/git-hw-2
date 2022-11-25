@@ -5,6 +5,9 @@
 
 .wrapper {
     background-color: lightgray;
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
 }
 
 .container {
@@ -69,6 +72,7 @@ header .clear {
 }
 
 section {
+    flex: 1 0 auto;
     padding-top: 20px;
     .item {
         float: left;
@@ -83,7 +87,7 @@ section {
         }
     }
     .block {
-        height: 100vh;
+        min-height: 70vh;
     }
     
     .block .clear {
@@ -91,3 +95,8 @@ section {
     }
 }
 
+footer {
+    padding: 20px;
+    flex: 0 0 auto;
+    background-color: #007765;
+}
