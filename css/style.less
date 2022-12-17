@@ -1,113 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.wrapper {
-    background-color: lightgray;
-    display: flex;
-	flex-direction: column;
-	min-height: 100%;
-}
-
-.container {
-    box-sizing: border-box;
-    width: 1219px;
-    height: 100%;
-    padding-left: 55px;
-    padding-right: 55px;
-    margin: 0 auto;
-}
-
-.font-stylization {
-    font-family: Roboto;
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    text-align: center;
-}
-
-header {
-    height: 44px;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #007765;
-    color: rgba(56, 56, 56, 0.726);
-}
-
-header .logo {
-    img {
-        display: inline-block;
-        height: 100%;
-    }
-    height: 100%;
-    width: auto;
-    margin: auto;
-    padding: auto;
-    float: left;
-}
-
-header .profile {
-    width: fit-content;
-    margin: 0 10px;
-    float: right;
-    a {
-        .font-stylization;
+.search {
+    input {
+        border: 0;
+        border-bottom: 1px solid gray;
+        border-radius: 0;
         
     }
-}
-
-header .cart {
-    width: fit-content;
-    float: right;
-    margin: 0 10px;
-    a {
-        .font-stylization;
-    }
-}
-
-header .clear {
-    clear: both;
-}
-
-section {
-    flex: 1 0 auto;
-    padding-top: 20px;
-    .item {
-        float: left;
-        margin: 10px;
-        height: 300px;
-        .item-name {
-            font-size: 20px;
-            text-align: center;
-        }
-        .item-description {
-            padding: 5px 15px;
-        }
-    }
-    .block {
-        min-height: 70vh;
-    }
     
-    .block .clear {
-        clear: both;
-    }
 }
 
-footer {
-    padding: 20px;
-    flex: 0 0 auto;
-    background-color: #007765;
-    .info-block {
-        .font-stylization;
-        text-align: left;
-        li {
-            list-style-type: none; 
-        }
-    }
-    .brand {
-        padding: 15px 0;
-        .font-stylization;
+.item-grid {
+    a {
+        text-decoration: none;
+        color: var(--bs-body-color);
+
     }
 }
